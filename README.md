@@ -68,3 +68,45 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Meets Expectations Requirements
+
+1. Project set up correctly using Create React App	
+
+No warnings or errors in the console about unused/missing assets.
+
+Running npm start successfully launches the app.
+
+2. UI Components	
+
+App is broken up into components, for example:
+App
+Nav
+Gallery or PhotoContainer
+GalleryItem or Photo
+SearchForm
+Etc.
+
+3. Matching the mockups	
+
+Provided CSS is used and the important aspects of the app generally resemble the mockups.
+
+4. Routing
+
+React Router properly implemented.
+URLs correctly match routes.
+Clicking a nav link or using the browser's forward and back buttons displays the correct data on the page.
+
+5. Data Fetching
+
+Uses Flickr API correctly: API Keys and proper Photo source URLs.
+Fetched data is passed down to a presentation component (that only renders a list of search, for example) via props.
+
+6. Displaying Data
+
+No console errors or warnings regarding unique "key" props.
+Key props passed to images.
+
+7. Search Field
+
+Submitting search data returns & displays results.
