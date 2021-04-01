@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, withRouter, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import axios from "axios";
 import Nav from "./components/Nav";
 import SearchForm from "./components/SearchForm";
